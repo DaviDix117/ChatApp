@@ -1,0 +1,5 @@
+yarn add firebase
+yarn add native-base
+npx react-native link
+yarn add moment
+yarn add lodash
