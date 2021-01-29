@@ -1,4 +1,4 @@
-package com.chat;
+package com.davidgaleano.chat;
 
 import com.facebook.react.ReactActivity;
 
