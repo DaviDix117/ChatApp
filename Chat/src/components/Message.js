@@ -36,7 +36,7 @@ export default function Message(props) {
             {/* si yo envié el mensaje np mostrar (si this false) */}
             {!ThisIsMe &&(
                 //Contenedor para escribir la letra 
-                <View style={[{backgroundColor: `rgb(${bgLetter})` },styles.letterView]}>
+                <View style={[{backgroundColor: `rgb(${bgLetter})`, height: 35, width: 35, borderRadius: 50, marginRight: 10 },styles.letterView]}>
                     <Text style={styles.letter}>
                         {userName.substr(0, 1)}
                     </Text>
